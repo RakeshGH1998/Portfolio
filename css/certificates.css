@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    background-color: #040D12;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+nav h1{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: transform .4s;
+}
+nav h1:hover{
+    transform: scale(1.5);
+}
+span{
+    color: #f9004d;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    transition: transform .4s;
+}
+nav ul li:hover{
+    transform: scale(1.5);
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .3s;
+}
+.active{
+    color: #f9004d;
+}
+hr{
+    width: 83%;
+    margin: 20px 10% 0px 7.6%;
+    border-color: #f9004d;
+    box-shadow: 2px 2px 12px #f9004d;
+}
+.main{
+    width: 98%;
+    height: 80vh;
+    margin-left: 14px;
+    margin-top: 12px;
+}
+.sub-container1{
+    width: 220px;
+    height: 220px;
+   
+    margin: 16px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.sub-container2{
+    width: 220px;
+    height: 220px;
+    margin-left: 410px;
+    margin-top: -235.5px;
+}
+.sub-container3{
+    width: 220px;
+    height: 220px;
+    margin-left: 720px;
+    margin-top: -220px;
+}
+.sub-container4{
+    width: 220px;
+    height: 220px;
+    margin-left: 1030px;
+    margin-top: -219px;
+}
+.sub-container5{
+    width: 220px;
+    height: 220px;
+    margin: 16px;
+    margin-top: 18px;
+    margin-left: 100px;
+}
+.sub-container6{
+    width: 220px;
+    height: 220px;
+    margin: 16px;
+    margin-left: 410px;
+    margin-top: -234px;
+}
+.sub-container7{
+    width: 220px;
+    height: 220px;
+    margin-top: -236px;
+    margin-left: 720px;
+}
+.sub-container8{
+    width: 220px;
+    height: 220px;
+    margin-top: -220px;
+    margin-left: 1030px;
+}
+a img{
+    width: 216px;
+    height: 216px;
+    transition: transform .4s;
+    border-radius: 6px;
+}
+img:hover{
+    transform: scale(1.7);
+    border-radius: 6px;
+}

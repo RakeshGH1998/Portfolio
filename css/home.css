@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    background-color: #040D12;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+nav h1{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: transform .4s;
+}
+nav h1:hover{
+    transform: scale(1.5);
+}
+span{
+    color: #f9004d;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    transition: transform .4s;
+}
+nav ul li:hover{
+    transform: scale(1.5);
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .3s;
+}
+.active{
+    color: #f9004d;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 13px;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 38px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
+hr{
+    width: 83%;
+    margin: 12px 10% 0px 7.8%;
+    border-color: #f9004d;
+    box-shadow: 2px 2px 12px #f9004d;
+}
+.animation{
+    margin-top: 60px;
+    width: 50%;
+    margin-left: 48%;
+    height: 300px;
+    display: flex;
+    
+}
+p{
+    border: 1px solid #f9004d;
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-top: 350px;
+    animation-name: ani;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+    text-align: center;
+    padding-top: 15px;
+    color: aqua;
+    font-family: cursive;
+    font-weight: bolder;
+}
+@keyframes ani{
+    0%{background-color: #040D12;border: 6px solid #f9004d; top: 0px;}
+    50%{background-color: #040D12;bottom: 350px;}
+    100%{background-color: none; bottom: 0px;}
+}
